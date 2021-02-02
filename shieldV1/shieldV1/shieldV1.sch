@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Nucleo Shield"
 Date ""
-Rev ""
-Comp ""
+Rev "V1"
+Comp "Coilchain"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -49,18 +49,16 @@ $EndComp
 $Comp
 L Connector:Conn_01x04_Female J4
 U 1 1 601B0759
-P 1700 2000
-F 0 "J4" H 1728 1976 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 1728 1885 50  0000 L CNN
-F 2 "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical" H 1700 2000 50  0001 C CNN
-F 3 "~" H 1700 2000 50  0001 C CNN
-	1    1700 2000
+P 1700 2200
+F 0 "J4" H 1728 2176 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 1728 2085 50  0000 L CNN
+F 2 "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical" H 1700 2200 50  0001 C CNN
+F 3 "~" H 1700 2200 50  0001 C CNN
+	1    1700 2200
 	-1   0    0    -1  
 $EndComp
 Text Label 7000 2100 0    50   ~ 0
 E5V
-Text Label 7000 2200 0    50   ~ 0
-GND
 Text Label 9800 2500 0    50   ~ 0
 PA_11_UART6_TX
 Text Label 9800 2400 0    50   ~ 0
@@ -24860,19 +24858,15 @@ Wire Wire Line
 	7000 2200 7150 2200
 Text Label 2100 1150 0    50   ~ 0
 E5V
-Text Label 2500 1800 0    50   ~ 0
+Text Label 2500 2000 0    50   ~ 0
 E5V
+Text Label 2100 2300 0    50   ~ 0
+PA_3_UART2_RX
 Text Label 2100 2200 0    50   ~ 0
-GND
-Text Label 2100 1450 0    50   ~ 0
-GND
-Text Label 2100 2100 0    50   ~ 0
-PA_3_UART2_RX
-Text Label 2100 2000 0    50   ~ 0
 PA_2_UART2_TX
-Text Label 2100 2100 0    50   ~ 0
+Text Label 2100 2300 0    50   ~ 0
 PA_3_UART2_RX
-Text Label 2100 2000 0    50   ~ 0
+Text Label 2100 2200 0    50   ~ 0
 PA_2_UART2_TX
 Text Label 2100 1350 0    50   ~ 0
 PA_11_UART6_TX
@@ -24889,57 +24883,144 @@ Wire Wire Line
 $Comp
 L Jumper:SolderJumper_2_Open JP1
 U 1 1 601C8306
-P 2200 1800
-F 0 "JP1" H 2200 2005 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 2200 1914 50  0000 C CNN
-F 2 "" H 2200 1800 50  0001 C CNN
-F 3 "~" H 2200 1800 50  0001 C CNN
-	1    2200 1800
+P 2200 2000
+F 0 "JP1" H 2200 2205 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 2200 2114 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2200 2000 50  0001 C CNN
+F 3 "~" H 2200 2000 50  0001 C CNN
+	1    2200 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 1900 2050 1900
+	1900 2100 2050 2100
 Wire Wire Line
-	2050 1900 2050 1800
+	2050 2100 2050 2000
 Wire Wire Line
-	2350 1800 2650 1800
+	2350 2000 2650 2000
 Wire Wire Line
-	1900 2000 2800 2000
+	1900 2200 2800 2200
 Wire Wire Line
-	1900 2100 2800 2100
+	1900 2300 2800 2300
 Wire Wire Line
-	1900 2200 2250 2200
+	1900 2400 2250 2400
 $Comp
 L Connector:Conn_01x03_Female J5
 U 1 1 601CB229
-P 1750 3000
-F 0 "J5" H 1900 3100 50  0000 C CNN
-F 1 "Conn_01x03_Female" H 2200 2950 50  0000 C CNN
-F 2 "Connector_JST:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical" H 1750 3000 50  0001 C CNN
-F 3 "~" H 1750 3000 50  0001 C CNN
-	1    1750 3000
+P 1700 3350
+F 0 "J5" H 1850 3450 50  0000 C CNN
+F 1 "Conn_01x03_Female" H 2150 3300 50  0000 C CNN
+F 2 "Connector_JST:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical" H 1700 3350 50  0001 C CNN
+F 3 "~" H 1700 3350 50  0001 C CNN
+	1    1700 3350
 	-1   0    0    -1  
 $EndComp
-Text Label 2150 2900 0    50   ~ 0
-E5V
-Text Label 2150 3100 0    50   ~ 0
-GND
 Wire Wire Line
-	1950 3100 2300 3100
+	1900 3450 2250 3450
 Wire Wire Line
-	1950 2900 2300 2900
-Text Label 2150 3000 0    50   ~ 0
+	1900 3250 2250 3250
+Text Label 2600 3350 0    50   ~ 0
 PC6_CRANK_SIG
-Wire Wire Line
-	1950 3000 2350 3000
 Text Notes 850  1050 0    50   ~ 0
 UART VESC1
-Text Notes 850  1850 0    50   ~ 0
+Text Notes 850  2050 0    50   ~ 0
 UART VESC2
-Text Notes 850  2800 0    50   ~ 0
+Text Notes 800  3150 0    50   ~ 0
 CRANK SIGNAL
 Text Label 9800 2000 0    50   ~ 0
 PC6_CRANK_SIG
 Wire Wire Line
 	9800 2000 10450 2000
+$Comp
+L power:+3.3V #PWR02
+U 1 1 601D59A0
+P 7100 2600
+F 0 "#PWR02" H 7100 2450 50  0001 C CNN
+F 1 "+3.3V" V 7115 2728 50  0000 L CNN
+F 2 "" H 7100 2600 50  0001 C CNN
+F 3 "" H 7100 2600 50  0001 C CNN
+	1    7100 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 2600 7000 2600
+$Comp
+L power:+3.3V #PWR01
+U 1 1 601DB67C
+P 2250 2950
+F 0 "#PWR01" H 2250 2800 50  0001 C CNN
+F 1 "+3.3V" H 2265 3123 50  0000 C CNN
+F 2 "" H 2250 2950 50  0001 C CNN
+F 3 "" H 2250 2950 50  0001 C CNN
+	1    2250 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 601DDB79
+P 2450 3200
+F 0 "R1" H 2520 3246 50  0000 L CNN
+F 1 "10K" H 2520 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2380 3200 50  0001 C CNN
+F 3 "~" H 2450 3200 50  0001 C CNN
+	1    2450 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3350 2450 3350
+Connection ~ 2450 3350
+Wire Wire Line
+	2450 3350 2800 3350
+Wire Wire Line
+	2250 3250 2250 3050
+Wire Wire Line
+	2450 3050 2250 3050
+Connection ~ 2250 3050
+Wire Wire Line
+	2250 3050 2250 2950
+Text Notes 2600 3050 0    50   ~ 0
+NP for HallSensor
+$Comp
+L power:GND #PWR?
+U 1 1 601E0CC8
+P 7150 2200
+F 0 "#PWR?" H 7150 1950 50  0001 C CNN
+F 1 "GND" H 7155 2027 50  0000 C CNN
+F 2 "" H 7150 2200 50  0001 C CNN
+F 3 "" H 7150 2200 50  0001 C CNN
+	1    7150 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601E12E4
+P 2250 3450
+F 0 "#PWR?" H 2250 3200 50  0001 C CNN
+F 1 "GND" H 2255 3277 50  0000 C CNN
+F 2 "" H 2250 3450 50  0001 C CNN
+F 3 "" H 2250 3450 50  0001 C CNN
+	1    2250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601E1BD2
+P 2250 2400
+F 0 "#PWR?" H 2250 2150 50  0001 C CNN
+F 1 "GND" H 2255 2227 50  0000 C CNN
+F 2 "" H 2250 2400 50  0001 C CNN
+F 3 "" H 2250 2400 50  0001 C CNN
+	1    2250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601E1FA6
+P 2250 1450
+F 0 "#PWR?" H 2250 1200 50  0001 C CNN
+F 1 "GND" H 2255 1277 50  0000 C CNN
+F 2 "" H 2250 1450 50  0001 C CNN
+F 3 "" H 2250 1450 50  0001 C CNN
+	1    2250 1450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
