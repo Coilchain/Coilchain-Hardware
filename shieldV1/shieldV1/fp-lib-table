@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name coilchain)(type KiCad)(uri C:/Users/bbl/Documents/personnal_projects/KiCAD/projects/Coilchain-Hardware/coilchain.pretty)(options "")(descr ""))
+)
