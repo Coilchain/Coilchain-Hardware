@@ -24969,8 +24969,6 @@ Wire Wire Line
 	1900 3350 2450 3350
 Connection ~ 2450 3350
 Wire Wire Line
-	2450 3350 2800 3350
-Wire Wire Line
 	2250 3250 2250 3050
 Wire Wire Line
 	2450 3050 2250 3050
@@ -25023,4 +25021,6 @@ F 3 "" H 2250 1450 50  0001 C CNN
 	1    2250 1450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2450 3350 3250 3350
 $EndSCHEMATC
