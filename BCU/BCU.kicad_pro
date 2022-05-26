@@ -404,7 +404,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -414,6 +414,30 @@
     [
       "fb576870-14c4-4f89-a6c7-8f90339117d7",
       ""
+    ],
+    [
+      "1a18386a-ab0e-43d4-96e9-dbe26e6072e0",
+      "power"
+    ],
+    [
+      "c120c6ef-7621-4692-9502-93c1ac6ab5de",
+      "mcu"
+    ],
+    [
+      "dda28fcd-abc0-4afd-9d09-5ba577cec59b",
+      "can"
+    ],
+    [
+      "8211c938-c224-4e73-8f0f-b201cd839b98",
+      "battery"
+    ],
+    [
+      "88335b0c-d70d-45f7-812e-0dda0b1d518c",
+      "ui"
+    ],
+    [
+      "b8e7c7ef-8bc4-4e69-9c1a-dab1ce74a15c",
+      "sensors"
     ]
   ],
   "text_variables": {}
