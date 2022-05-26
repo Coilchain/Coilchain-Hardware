@@ -84,7 +84,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x02_Top_Bottom") (at 133.985 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 58292430-19ed-4d15-8f5e-b9338f7ff226)
-    (property "Reference" "J?" (id 0) (at 135.255 97.9002 0))
+    (property "Reference" "J5" (id 0) (at 135.255 97.9002 0))
     (property "Value" "Conn_02x02_Top_Bottom" (id 1) (at 135.255 100.4371 0))
     (property "Footprint" "" (id 2) (at 133.985 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
